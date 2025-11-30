@@ -1,22 +1,20 @@
 # Identity & Access Management (IAM) – Security Portfolio
 
-This repository documents my work, studies, and practical experience in **Identity & Access Security**, specifically focused on **Microsoft 365** and **Entra ID** (formerly Azure AD).
+This repository collects structured, enterprise-grade documentation and simulations focused on **Identity & Access Security** within Microsoft Entra ID (formerly Azure AD) and Microsoft 365 environments.
 
-My objective is to provide clear, structured, and enterprise-grade documentation and simulations that reflect real scenarios in modern identity security.
+My work is centered on strengthening authentication, enforcing MFA, designing Conditional Access policies, and simulating identity-based attack scenarios—core skills required in modern Zero Trust architectures.
 
 ---
 
 ## 🔐 Focus Areas
-This repository covers:
 
-- **Multi-Factor Authentication (MFA)** inventory and risk assessment  
-- **Conditional Access** design principles  
-- **Identity Incident Response** simulations  
-- **Zero Trust identity approach**  
-- **Authentication methods** and security best practices  
-- **Baseline identity hardening** for Microsoft environments  
-
-These are the core components of modern identity security and are directly linked to the most requested roles in the industry.
+- Multi-Factor Authentication (MFA) enforcement  
+- Conditional Access (CA) policy design  
+- Identity Incident Response  
+- Zero Trust identity principles  
+- Identity Protection signals  
+- Authentication method security (Authenticator App, FIDO2, number matching)  
+- Baseline hardening for Microsoft cloud environments  
 
 ---
 
@@ -27,66 +25,87 @@ These are the core components of modern identity security and are directly linke
     MFA-Inventory-EVM-Rail.md
 
 /conditional-access
-    (coming next: baseline CA policy set)
+    Baseline-CA-Design.md
 
 /incident-simulation
-    (coming next: password spray analysis, MFA fatigue case)
+    Password-Spray-Attack.md
+    MFA-Fatigue-Attack.md
 ```
 
-Each folder contains documentation designed to reflect real enterprise operations.
-
----
-
-## 🧩 Why Identity Security?
-Identity is the new security perimeter.  
-Most modern attacks (BEC, password spray, session hijacking, phishing bypasses) target user access, not firewalls.
-
-Working on identity means working at the core of cloud security.
+Each document is written with a clear structure, professional tone, and realistic reasoning aligned with enterprise IAM practices.
 
 ---
 
 ## 📄 Included Projects
 
 ### ✔ MFA Inventory – EVM Rail
-A real-world MFA adoption assessment across 11 users, including:
-- risk classification  
-- authentication method analysis  
-- exposure scenarios  
-- minimum operational plan  
+A real-world MFA adoption assessment conducted across 11 users.  
+Includes:
+- user risk classification  
+- authentication method review  
+- exposure analysis  
+- operational plan for MFA rollout  
 
-This serves as a foundational document for any IAM rollout.
+Demonstrates familiarity with Microsoft 365 authentication flows and identity risks.
 
-### ✔ Conditional Access (coming soon)
-A clean, structured design for:
+---
+
+### ✔ Conditional Access – Baseline Policy Design
+A complete baseline Conditional Access blueprint, covering:
 - Block Legacy Authentication  
 - MFA for all users  
-- Role-based access  
-- Sign-in risk conditions  
-- Basic Zero Trust posture  
+- MFA for administrative roles  
+- High-risk sign-in protection  
+- Geo-blocking guidelines  
+- Zero Trust device considerations  
 
-### ✔ Incident Response Simulations (coming soon)
-- Password Spray detection & response  
-- MFA Fatigue attack simulation  
-- Session token theft scenario  
+Shows ability to design enforceable identity security controls.
+
+---
+
+### ✔ Incident Simulation – Password Spray Attack
+A realistic simulation highlighting:
+- detection using Entra ID logs  
+- early indicators  
+- IAM-focused response steps  
+- mitigation via Conditional Access & MFA  
+- attacker behavior patterns  
+
+Demonstrates analytical thinking and security reasoning.
+
+---
+
+### ✔ Incident Simulation – MFA Fatigue (Push Bombing)
+Documents one of the most common modern MFA-bypass attempts.  
+Covers:
+- attack pattern  
+- log indicators  
+- user behavior exploitation  
+- remediation  
+- hardening with number matching and stronger factors  
+
+Shows understanding of identity attack vectors and modern defenses.
 
 ---
 
 ## 🛠 Tools & Technologies
-- **Microsoft Entra ID**
-- **Microsoft 365 Security**
-- **Conditional Access**
-- **Identity Protection**
-- **MFA (Authenticator App)**
-- **Zero Trust Identity**
+
+- Microsoft Entra ID (Azure AD)  
+- Microsoft 365 Security  
+- Conditional Access  
+- Identity Protection  
+- Microsoft Authenticator (App-based MFA)  
+- Zero Trust Identity Architecture  
+- Passwordless / FIDO2 (conceptual)  
 
 ---
 
 ## 👤 Author
+
 **Pasquale Fabio Cioffo**  
 Identity & Access Security – Portfolio
 
 ---
 
-## 📌 Note
-All documents respect an enterprise-style structure:  
-concise, actionable, reproducible, and aligned with modern identity security standards.
+## 📝 Notes
+This repository is continuously updated with professional documentation and simulations to reflect real-world IAM operations and modern enterprise identity security models.
