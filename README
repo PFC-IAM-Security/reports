@@ -1,0 +1,92 @@
+# Identity & Access Management (IAM) – Security Portfolio
+
+This repository documents my work, studies, and practical experience in **Identity & Access Security**, specifically focused on **Microsoft 365** and **Entra ID** (formerly Azure AD).
+
+My objective is to provide clear, structured, and enterprise-grade documentation and simulations that reflect real scenarios in modern identity security.
+
+---
+
+## 🔐 Focus Areas
+This repository covers:
+
+- **Multi-Factor Authentication (MFA)** inventory and risk assessment  
+- **Conditional Access** design principles  
+- **Identity Incident Response** simulations  
+- **Zero Trust identity approach**  
+- **Authentication methods** and security best practices  
+- **Baseline identity hardening** for Microsoft environments  
+
+These are the core components of modern identity security and are directly linked to the most requested roles in the industry.
+
+---
+
+## 📁 Repository Structure
+
+```
+/reports
+    MFA-Inventory-EVM-Rail.md
+
+/conditional-access
+    (coming next: baseline CA policy set)
+
+/incident-simulation
+    (coming next: password spray analysis, MFA fatigue case)
+```
+
+Each folder contains documentation designed to reflect real enterprise operations.
+
+---
+
+## 🧩 Why Identity Security?
+Identity is the new security perimeter.  
+Most modern attacks (BEC, password spray, session hijacking, phishing bypasses) target user access, not firewalls.
+
+Working on identity means working at the core of cloud security.
+
+---
+
+## 📄 Included Projects
+
+### ✔ MFA Inventory – EVM Rail
+A real-world MFA adoption assessment across 11 users, including:
+- risk classification  
+- authentication method analysis  
+- exposure scenarios  
+- minimum operational plan  
+
+This serves as a foundational document for any IAM rollout.
+
+### ✔ Conditional Access (coming soon)
+A clean, structured design for:
+- Block Legacy Authentication  
+- MFA for all users  
+- Role-based access  
+- Sign-in risk conditions  
+- Basic Zero Trust posture  
+
+### ✔ Incident Response Simulations (coming soon)
+- Password Spray detection & response  
+- MFA Fatigue attack simulation  
+- Session token theft scenario  
+
+---
+
+## 🛠 Tools & Technologies
+- **Microsoft Entra ID**
+- **Microsoft 365 Security**
+- **Conditional Access**
+- **Identity Protection**
+- **MFA (Authenticator App)**
+- **Zero Trust Identity**
+
+---
+
+## 👤 Author
+**Pasquale Fabio Cioffo**  
+Identity & Access Security – Portfolio
+
+---
+
+## 📌 Note
+All documents respect an enterprise-style structure:  
+concise, actionable, reproducible, and aligned with modern identity security standards.
